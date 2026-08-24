@@ -2,6 +2,18 @@
 
 Upload [SmartMuseumRobot.ino](SmartMuseumRobot.ino) with the Arduino IDE using an ESP32 board. It creates a local Wi-Fi network named **Museum-Guide**. Visitors join it with password **museum123**, then open `http://192.168.4.1`.
 
+## Components required
+
+- ESP32 development board
+- RC522 RFID/NFC card reader module and RFID/NFC cards
+- DFPlayer Mini MP3 player module
+- LM386 audio amplifier module
+- 3 W, 4 Ω speaker
+- FAT32-formatted microSD card (for the narration MP3 files)
+- 1 kΩ resistor (between ESP32 GPIO 17 and DFPlayer RX)
+- Regulated external 5 V power supply
+- Jumper wires and a USB cable for programming the ESP32
+
 ## Wiring
 
 | Module | ESP32 connection |
